@@ -1,0 +1,23 @@
+{
+  "name": "shizubot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start" : "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ac2pic/shizubot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ac2pic/shizubot/issues"
+  },
+  "homepage": "https://github.com/ac2pic/shizubot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
