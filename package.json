@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ac2pic/shizubot#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.3.0",
+    "node-wit": "^5.0.0"
   }
 }
