@@ -30,6 +30,13 @@ async function run(msg) {
 			}			
 		}
 		if(entities.intent[0].value === "greet") {
+			if (entities.target) {
+				if (!(entities.target[0].value === "anyone" 
+					|| entities.target[0].value === "self")) {
+						msg.channel.send('This is not their channel. Please take it to the DMs.');
+					return;
+				}
+			}
 			msg.channel.send('hi');
 		}
 	}
