@@ -20,7 +20,7 @@ client.on(`message`, async (msg) => {
 		return;
 	const {content} = msg;
 	
-	if(msg.channel.name === "talk-to-shizu") {
+	if(msg.channel.name === "make-shizu-say-hi") {
 		await specialCommands.talk.run(msg);
 	}
 	else if(content.startsWith(process.env.PREFIX)) {
